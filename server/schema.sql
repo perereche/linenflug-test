@@ -1,0 +1,7 @@
+CREATE TABLE cars (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    license TEXT NULL,
+    color TEXT NOT NULL,
+    tuv DATE NULL
+);
